@@ -1,0 +1,4 @@
+Student name: Daniela Repková
+Student number: 689681
+Student class: IT 1C
+GitHub repository: https://github.com/danka689681/webmarkup_689681.git
