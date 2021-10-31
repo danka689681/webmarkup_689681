@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="author" content="Daniela Repkova">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>The best travel agency</title>
+    <meta name="keywords" content="travel, agency, vacation, fun, flight">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body id="contact" class="generalNav">
+    <section class="head">
+        <header class="mainHeader">
+            <img src="media/logo.svg" width="150px" height="150px" alt="Logo" title="Logo" />
+            <h1 class="title">The best travel agency</h1>
+            <h2 class="title">Discover new places</h2>
+        </header>
+        <nav>
+            <input type="checkbox" id="menuCheck" class="menuCheck" />
+            <label for="menuCheck" class="menuBars"><i class="fas fa-bars"></i></label>
+            <ul class="burgerMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bestdestinations.html">Best destinations</a></li>
+                <li><a href="tickets.html">Tickets</a></li>
+                <li class="active"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section class="bodySection" id="contactSection">
+        <form>
+            <fieldset>
+                <legend>Contact</legend>
+                <section class="contactInput">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </section>
+                <section class="contactInput">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" required>
+                </section>
+                <section class="contactTextarea">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </section>
+                <button type="submit" class="submit">Submit</button>
+            </fieldset>
+        </form>
+        <aside>
+            <a class="imageContainer" href="https://www.tui.nl/reizen/griekenland/santorini/?clearmodel=1">
+                <figure>
+                    <img src="media/santorini.jpg" alt="Santorini" title="Santorini" />
+                    <figcaption class="photoCopyright">Copyright free - source: Pixabay</figcaption>
+                </figure>
+            </a>
+            <a class="imageContainer" href="https://www.discovergreece.com/hotels">
+                <figure>
+                    <img src="media/crete.jpg" alt="Crete" title="Crete" />
+                    <figcaption class="photoCopyright">Copyright free - source: Pixabay</figcaption>
+                </figure>
+            </a>
+            <a class="imageContainer" href="https://www.tui.nl/reizen/spanje/tenerife/?clearmodel=1">
+                <figure>
+                    <img src="media/tenerife.jpg" alt="Tenerife" title="Tenerife" />
+                    <figcaption class="photoCopyright">Copyright free - source: Pixabay</figcaption>
+                </figure>
+            </a>
+        </aside>
+    </section>
+    <footer class="mainFooter">
+        <h3>&copy;2021 Daniela Repková</h3>
+        <p class="cookies">Cookie statement</p>
+    </footer>
+</body>
+
+</html>
